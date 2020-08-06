@@ -1,0 +1,131 @@
+.logo{
+    width: 90%;
+    margin: 5px 37%;
+}
+.logoImg{
+    width : 250px;
+    height: 60px;
+}
+.redBorder{
+    padding: 1px;
+    text-align: center;
+    border-bottom: 10px solid #f13333;
+    color: #f13333;
+
+}
+.greenBorder{
+    border-bottom: 10px solid #4ccc4c;
+    padding: 1px;
+    text-align: center;
+    color: #4ccc4c;
+}
+.blueBorder{
+    border-bottom: 10px solid #1676ff;
+    padding: 1px;
+    text-align: center;
+    color: #1676ff;
+}
+.Visualization{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+}
+.mainProgressBar{
+    flex-basis:50%;
+    display:flex;
+    justify-content:space-around;
+}
+.progressBar{
+    width: 140px;
+    height: 140px;
+}
+.chartBar{
+    flex-basis : 50%;
+    min-height :300px;
+}
+
+ @media screen and (max-width: 1095px) {
+    .logo{
+        margin: 5px 100px;
+    }
+    .chartBar{
+        width: 200px;
+        min-height :300px;
+    }
+    .progressBar{
+        width: 120px;
+        height: 120px;
+    }
+  }
+
+  @media screen and (max-width: 822px){
+    .redBorder{
+        font-size: 14px;
+    }
+    .greenBorder{
+        font-size: 14px;
+    }
+    .blueBorder{
+        font-size: 14px;
+    }
+  }
+
+
+  @media screen and (max-width: 790px) {
+    .Visualization{
+        flex-wrap: wrap;
+    }
+    .mainProgressBar{
+        margin-top: 20px;
+        flex-basis: 100%;
+    }
+    .chartBar{
+        flex-basis : 80%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .logo{
+        margin: 5px 50px;
+        }
+        .chartBar{
+            width: 150px;
+            height :200px;
+        }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .charBar{
+        width: 100px!important;
+        height :150px;
+    }
+    .mainProgressBar{
+        justify-content: center;
+    }
+    .progressBar{
+        margin: 20px;
+    }
+    .logo{
+        width: 50%;
+        margin: 5px 30%;
+    }
+    .logoImg{
+        width : 200px;
+        height: 50px;
+    }
+  } 
+
+  @media screen and (max-width: 500px) {
+    .logo{
+        width: 40%;
+        margin: 5px 20%;
+    }
+    .logoImg{
+        width : 170px;
+        height: 40px;
+    }
+    .progressBar{
+        width: 100px;
+        height: 100px;
+    }
+  }
